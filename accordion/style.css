@@ -1,0 +1,24 @@
+.question_tab{
+    border-bottom: 1px solid #aaa;
+}
+
+.pm_button{
+   background-color: rgba(128, 67, 67, 0);
+   border: none;
+   margin: 50px 20px 10px 50px;
+}
+
+.question_tab p{
+    display: none;
+    transition: 10s;
+}
+
+.active p{
+    display: block;
+    transition: 10s;
+}
+
+.active button span{
+    content: '-';
+    
+}
